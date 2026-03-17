@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sistema de registro de estu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sistema de inventario de productos", "Sistema de inventario de productos\Sistema de inventario de productos.csproj", "{543981F9-0FCA-4828-A754-121728AE9051}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sistema de empleados de una empresa", "Sistema de empleados de una empresa\Sistema de empleados de una empresa.csproj", "{17E66DBB-FEE9-4C00-9F9B-A4DB428D2FD1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{543981F9-0FCA-4828-A754-121728AE9051}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{543981F9-0FCA-4828-A754-121728AE9051}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{543981F9-0FCA-4828-A754-121728AE9051}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17E66DBB-FEE9-4C00-9F9B-A4DB428D2FD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17E66DBB-FEE9-4C00-9F9B-A4DB428D2FD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17E66DBB-FEE9-4C00-9F9B-A4DB428D2FD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17E66DBB-FEE9-4C00-9F9B-A4DB428D2FD1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
