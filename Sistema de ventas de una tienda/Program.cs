@@ -12,15 +12,17 @@ for (int i = 0; i < n; i++)
     Console.WriteLine($" venta {i + 1}");
     Console.WriteLine("N0mbre del producto: "); v.producto = Console.ReadLine();
     Console.WriteLine("Precio: "); v.precio = double.Parse (Console.ReadLine());
-    Console.WriteLine(" cantidad vendida : ") v.cantidad = int.Parse (Console.ReadLine());
+    Console.WriteLine(" cantidad vendida : "); v.cantidad = int.Parse (Console.ReadLine());
     venta.Add(v);
 }
+double totalGEneral = 0;
 Console.WriteLine("\n LISTADO DE VENTAS ");
 foreach (Venta v in venta)
 {
-
+    v.MostarDatos();
+    totalGEneral += v.CalcularTotal();
 }
-
+Console.WriteLine($"total General vendido:Q {totalGEneral :F2} ");
 
 class Venta
 {
@@ -32,17 +34,17 @@ class Venta
     public double CalcularDescuento()
     {
         double subTotal = CalcularSubTotal();
-        if (subTotal > 500) return subTotal * 0.10;
+        if (subTotal >= 500) return subTotal * 0.10;
         else if (subTotal >= 200) return subTotal * 0.05;
         else return 0;
 
     }
         
-    public double total() { return CalcularSubTotal() - CalcularDescuento(); }
+    public double CalcularTotal() { return CalcularSubTotal() - CalcularDescuento(); }
 
     public void MostarDatos()
     {
         Console.WriteLine($"Producto: { producto} | precio: {precio :F2} | Suntotal {CalcularSubTotal():F2} |Descuento: {CalcularDescuento()} " +
-            $"| Total a pagar: {total()}");
+            $"| Total a pagar: {CalcularTotal()}");
     }
 }
