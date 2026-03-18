@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sistema de ventas de una ti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sistema de biblioteca", "Sistema de biblioteca\Sistema de biblioteca.csproj", "{B5666337-8AB0-4546-966D-A910CBCEC51A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Registro de estudiantes utilizando diccionario", "Registro de estudiantes utilizando diccionario\Registro de estudiantes utilizando diccionario.csproj", "{B3B9853F-8B07-4FB9-B3A2-950A6090DAE6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{B5666337-8AB0-4546-966D-A910CBCEC51A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5666337-8AB0-4546-966D-A910CBCEC51A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5666337-8AB0-4546-966D-A910CBCEC51A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3B9853F-8B07-4FB9-B3A2-950A6090DAE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3B9853F-8B07-4FB9-B3A2-950A6090DAE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3B9853F-8B07-4FB9-B3A2-950A6090DAE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3B9853F-8B07-4FB9-B3A2-950A6090DAE6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
