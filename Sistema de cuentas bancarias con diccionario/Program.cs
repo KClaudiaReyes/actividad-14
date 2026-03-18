@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 
 List<Cuenta> cuentas = new List<Cuenta>();
+
 Console.WriteLine("Cuantas Cuentas Desea Ingresar? :");
 int n = int.Parse(Console.ReadLine());
 
