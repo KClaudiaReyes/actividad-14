@@ -20,6 +20,12 @@ for (int i = 0; i < n; i++)
     {
         Console.WriteLine("No se puede realizar el retiro por saldo insuficiente");
     }
+    cuentas.Add(c);
+}
+Console.WriteLine("\n CUENTAS REGISTRADAS ");
+foreach (Cuenta c in cuentas)
+{
+    c.MostrarDatos();
 }
 class Cuenta
 {
