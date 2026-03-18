@@ -9,7 +9,7 @@ for (int i = 0; i < n; i++)
 {
     Cuenta c = new Cuenta();
     Console.WriteLine($"Cuenta {i + 1}");
-    Console.WriteLine("Titular: "); c.Titular = Console.ReadKey();
+    Console.WriteLine("Titular: "); c.Titular = Console.ReadLine();
     Console.WriteLine("Saldo Inicial: "); c.Saldo = double.Parse(Console.ReadLine());
     Console.WriteLine("Monto a Depositar: ");
     double deposito = double.Parse(Console.ReadLine());
