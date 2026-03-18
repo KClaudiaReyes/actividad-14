@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Registro de estudiantes uti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sistema de productos por código", "Sistema de productos por código\Sistema de productos por código.csproj", "{3DA338A0-FE97-43E1-8711-56D0EDB39589}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sistema de cuentas bancarias con diccionario", "Sistema de cuentas bancarias con diccionario\Sistema de cuentas bancarias con diccionario.csproj", "{EC6CA14B-B121-4E3D-9426-F4E98A12C187}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{3DA338A0-FE97-43E1-8711-56D0EDB39589}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3DA338A0-FE97-43E1-8711-56D0EDB39589}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3DA338A0-FE97-43E1-8711-56D0EDB39589}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC6CA14B-B121-4E3D-9426-F4E98A12C187}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC6CA14B-B121-4E3D-9426-F4E98A12C187}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC6CA14B-B121-4E3D-9426-F4E98A12C187}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC6CA14B-B121-4E3D-9426-F4E98A12C187}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
