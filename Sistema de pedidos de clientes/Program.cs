@@ -1,6 +1,35 @@
 ﻿using System;
 using System.Collections.Generic;
 
+
+
+
+
+List<Pedido> pedidos = new List<Pedido>();
+Console.WriteLine("cuantos Pedidos desea Registrar? :");
+int n = int.Parse(Console.ReadLine());
+
+for(int i =0; i<n;i++)
+{
+    Pedido p = new Pedido();
+    Console.WriteLine($"\n Pedido {i + 1}");
+    Console.WriteLine("Cliente: "); p.Cliente = Console.ReadLine();
+    Console.Write("Producto: ") ; p.Producto = Console.ReadLine();
+    Console.WriteLine("Cantidad: ");p.cantidad = int.Parse(Console.ReadLine());
+    Console.WriteLine("Precio Unitario: ");p.PrecioUnitario = double.Parse(Console.ReadLine());
+    pedidos.Add(p);
+}
+double TotalVentas =0;
+Console.WriteLine("\n PEDIDOS REGISTRADOS ");
+foreach(Pedido p in pedidos)
+{
+    p.MostrarDatos();
+    TotalVentas += p.CalcularTotal();
+}
+
+Console.WriteLine($"\n TOTAL general de pedidos: {TotalVentas:F2}");
+
+
 class Pedido
 {
     public string Cliente;
